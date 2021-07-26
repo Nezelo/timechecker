@@ -4,8 +4,8 @@ on:
   push:
     branches: [ master ]
 
-  jobs:
-    build-n-publish:
+jobs:
+  build-n-publish:
     name: Build and publish Python distribution
     runs-on: ubuntu-18.04
     steps:
