@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="timechecker",
     version="0.0.1",
-    author="Edidiong Etuk",
+    author="Bongani Mondlane",
     author_email="edeediong@gmail.com",
     url="https://bit.ly/edeediong-resume",
     description="An application that informs you of the time in different locations and timezones",
