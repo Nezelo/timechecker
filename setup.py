@@ -4,8 +4,8 @@ setup(
     name="timechecker",
     version="0.0.1",
     author="Bongani Mondlane",
-    author_email="edeediong@gmail.com",
-    url="https://bit.ly/edeediong-resume",
+    author_email="proneezy@hotmail.com",
+    url="",
     description="An application that informs you of the time in different locations and timezones",
     packages=find_packages(),
     classifiers=[
