@@ -2,12 +2,12 @@ name: Publish Python distributions to PyPI and TestPyPI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build-n-publish:
     name: Build and publish Python distribution
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@master
         - name: Initialize Python 3.7
