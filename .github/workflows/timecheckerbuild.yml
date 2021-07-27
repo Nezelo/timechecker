@@ -56,7 +56,7 @@ jobs:
           pip install flake8
       - name: Build binary wheel and a source tarball
         working-directory: timechecker
-        run: python setup.py sdis
+        run: python setup.py sdist
       - name: Generate zip folder
         run: |
           python -m zipapp timechecker/
