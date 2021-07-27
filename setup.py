@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="timecheckerza",
-    version="0.0.2",
+    version="0.0.3",
     author="Bongani Mondlane",
     author_email="proneezy@hotmail.com",
     url="",
