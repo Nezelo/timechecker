@@ -6,7 +6,7 @@ setup(
     author="Bongani Mondlane",
     author_email="proneezy@hotmail.com",
     url="",
-    description="An application that informs you of the time in different locations and timezones",
+    description="An application that informs you of the time in different locations and timezones nje",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
