@@ -53,8 +53,8 @@ jobs:
       - name: Install dependencies
         working-directory: timechecker
         run: |
-          pip install -r requirements.txt --target . --upgrade
-
+          python -m pip install --upgrade pip
+          pip install flake8
       - name: Build binary wheel and a source tarball
         run: python setup.py sdis
       - name: Generate zip folder
