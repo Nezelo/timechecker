@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="timechecker",
+    name="timecheckerza",
     version="0.0.1",
     author="Bongani Mondlane",
     author_email="proneezy@hotmail.com",
